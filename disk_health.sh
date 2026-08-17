@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPORT="=== NEST Disk health report ===
+REPORT="=== Server Disk health report ===
 
 "
 
@@ -90,4 +90,4 @@ done
 curl -X POST \
      -F "body=$REPORT" \
      -F "tags=all" \
-     http://192.168.1.5:18000/notify/apprise
+     http://xx.xx.xx.xx:8000/notify
